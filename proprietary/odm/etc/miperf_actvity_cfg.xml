@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PerfService>
+        <Package name="com.android.test1">
+                <Activity name="Common">
+                        <PERF_RES_BCK_CPUS Param1="2-6"/>
+                        <PERF_RES_MIN_FREQ_CPU Param1="0:200000"/>
+                        <PERF_RES_SCHED_BOOST Param1="1"/>
+                </Activity>
+        </Package>
+        <Package name="com.miui.test2">
+                <Activity name="Common">
+                        <PERF_RES_BCK_CPUS Param1="2-6"/>
+                        <PERF_RES_MIN_FREQ_CPU Param1="0:2000000"/>
+                        <PERF_RES_SCHED_BOOST Param1="1"/>
+                </Activity>
+        </Package>
+        <Package name="com.miui.huanji">
+                <Activity name="Common">
+                        <PERF_RES_PERFMGR_ENABLE Param1="1"/>
+                        <PERF_RES_CPU0_MAXFREQ Param1="1459200"/>
+                        <PERF_RES_PERFMGR_CPU7_NON_CONTINUOUS_SCENE Param1="1"/>
+                        <PERF_RES_TOP_CPUS Param1="3-7"/>
+                        <PERF_RES_PERFMGR_SCALING_R_THRES Param1="900"/>
+                        <PERF_RES_PERFMGR_FPS_121 Param1="1"/>
+                        <PERF_RES_PERFMGR_FPS_61 Param1="1"/>
+                        <PERF_RES_PERFMGR_SCALING_A Param1="400"/>
+                        <PERF_RES_PERFMGR_R_STOP_DRAW_THRES Param1="3"/>
+                        <PERF_RES_PERFMGR_MAX_LIMIT Param1="29"/>
+                        <PERF_RES_CPU7_CORECTL_ENABLE Param1="0"/>
+                        <PERF_RES_WALT_SCHED_ASYMCAP_BOOSTER Param1="1"/>
+                </Activity>
+        </Package>
+        <Package name="com.sina.weibo_bak">
+                <Activity name="Common">
+                        <PERF_RES_PERFMGR_ENABLE Param1="1"/>
+                        <PERF_RES_CPU0_MAXFREQ Param1="1459200"/>
+                        <PERF_RES_PERFMGR_CPU7_NON_CONTINUOUS_SCENE Param1="1"/>
+                        <PERF_RES_TOP_CPUS Param1="3-7"/>
+                        <PERF_RES_PERFMGR_SCALING_R_THRES Param1="900"/>
+                        <PERF_RES_PERFMGR_FPS_121 Param1="1"/>
+                        <PERF_RES_PERFMGR_FPS_61 Param1="1"/>
+                        <PERF_RES_PERFMGR_SCALING_A Param1="400"/>
+                        <PERF_RES_PERFMGR_R_STOP_DRAW_THRES Param1="3"/>
+                </Activity>
+        </Package>
+        <Package name="com.tencent.mm_bak">
+                <Activity name="Common">
+                        <PERF_RES_PERFMGR_ENABLE Param1="1"/>
+                        <PERF_RES_CPU0_MAXFREQ Param1="1459200"/>
+                        <PERF_RES_PERFMGR_CPU7_NON_CONTINUOUS_SCENE Param1="1"/>
+                        <PERF_RES_TOP_CPUS Param1="3-7"/>
+                        <PERF_RES_PERFMGR_SCALING_R_THRES Param1="900"/>
+                        <PERF_RES_PERFMGR_FPS_121 Param1="1"/>
+                        <PERF_RES_PERFMGR_FPS_61 Param1="1"/>
+                        <PERF_RES_PERFMGR_SCALING_A Param1="400"/>
+                        <PERF_RES_PERFMGR_R_STOP_DRAW_THRES Param1="3"/>
+                </Activity>
+        </Package>
+        <Package name="com.ss.android.ugc.aweme_bak">
+                <Activity name="Common">
+                        <PERF_RES_PERFMGR_ENABLE Param1="1"/>
+                        <PERF_RES_CPU0_MAXFREQ Param1="1459200"/>
+                        <PERF_RES_PERFMGR_CPU7_NON_CONTINUOUS_SCENE Param1="1"/>
+                        <PERF_RES_TOP_CPUS Param1="3-7"/>
+                        <PERF_RES_PERFMGR_SCALING_R_THRES Param1="740"/>
+                        <PERF_RES_PERFMGR_FPS_121 Param1="1"/>
+                        <PERF_RES_PERFMGR_FPS_61 Param1="1"/>
+                        <PERF_RES_PERFMGR_SCALING_A Param1="350"/>
+                        <PERF_RES_PERFMGR_R_STOP_DRAW_THRES Param1="5"/>
+                </Activity>
+        </Package>
+        <Package name="com.UCMobile_bak">
+                <Activity name="Common">
+                        <PERF_RES_PERFMGR_ENABLE Param1="1"/>
+                        <PERF_RES_CPU0_MAXFREQ Param1="1459200"/>
+                        <PERF_RES_PERFMGR_CPU7_NON_CONTINUOUS_SCENE Param1="1"/>
+                        <PERF_RES_TOP_CPUS Param1="3-7"/>
+                        <PERF_RES_PERFMGR_SCALING_R_THRES Param1="720"/>
+                        <PERF_RES_PERFMGR_FPS_121 Param1="1"/>
+                        <PERF_RES_PERFMGR_FPS_61 Param1="1"/>
+                        <PERF_RES_PERFMGR_SCALING_A Param1="310"/>
+                        <PERF_RES_PERFMGR_R_STOP_DRAW_THRES Param1="8"/>
+                </Activity>
+        </Package>
+        <Package name="com.taobao.taobao_bak">
+                <Activity name="Common">
+                        <PERF_RES_PERFMGR_ENABLE Param1="1"/>
+                        <PERF_RES_CPU0_MAXFREQ Param1="1459200"/>
+                        <PERF_RES_PERFMGR_CPU7_NON_CONTINUOUS_SCENE Param1="1"/>
+                        <PERF_RES_TOP_CPUS Param1="3-7"/>
+                        <PERF_RES_PERFMGR_SCALING_R_THRES Param1="850"/>
+                        <PERF_RES_PERFMGR_FPS_121 Param1="1"/>
+                        <PERF_RES_PERFMGR_FPS_61 Param1="1"/>
+                        <PERF_RES_PERFMGR_SCALING_A Param1="400"/>
+                        <PERF_RES_PERFMGR_R_STOP_DRAW_THRES Param1="3"/>
+                </Activity>
+        </Package>
+        <Package name="com.duokan.reader_bak">
+                <Activity name="Common">
+                        <PERF_RES_PERFMGR_ENABLE Param1="1"/>
+                        <PERF_RES_CPU0_MAXFREQ Param1="1459200"/>
+                        <PERF_RES_PERFMGR_CPU7_NON_CONTINUOUS_SCENE Param1="1"/>
+                        <PERF_RES_TOP_CPUS Param1="3-7"/>
+                        <PERF_RES_PERFMGR_SCALING_R_THRES Param1="900"/>
+                        <PERF_RES_PERFMGR_FPS_121 Param1="1"/>
+                        <PERF_RES_PERFMGR_FPS_61 Param1="1"/>
+                        <PERF_RES_PERFMGR_SCALING_A Param1="400"/>
+                        <PERF_RES_PERFMGR_R_STOP_DRAW_THRES Param1="3"/>
+                </Activity>
+        </Package>
+        <Package name="com.tencent.mobileqq_bak">
+                <Activity name="Common">
+                        <PERF_RES_PERFMGR_ENABLE Param1="1"/>
+                        <PERF_RES_CPU0_MAXFREQ Param1="1459200"/>
+                        <PERF_RES_PERFMGR_CPU7_NON_CONTINUOUS_SCENE Param1="1"/>
+                        <PERF_RES_TOP_CPUS Param1="3-7"/>
+                        <PERF_RES_PERFMGR_SCALING_R_THRES Param1="800"/>
+                        <PERF_RES_PERFMGR_FPS_121 Param1="1"/>
+                        <PERF_RES_PERFMGR_FPS_61 Param1="1"/>
+                        <PERF_RES_PERFMGR_SCALING_A Param1="400"/>
+                        <PERF_RES_PERFMGR_R_STOP_DRAW_THRES Param1="3"/>
+                </Activity>
+        </Package>
+        <Package name="com.android.browser_bak">
+                <Activity name="Common">
+                        <PERF_RES_PERFMGR_ENABLE Param1="1"/>
+                        <PERF_RES_CPU0_MAXFREQ Param1="1459200"/>
+                        <PERF_RES_PERFMGR_CPU7_NON_CONTINUOUS_SCENE Param1="1"/>
+                        <PERF_RES_TOP_CPUS Param1="3-7"/>
+                        <PERF_RES_PERFMGR_SCALING_R_THRES Param1="800"/>
+                        <PERF_RES_PERFMGR_FPS_121 Param1="1"/>
+                        <PERF_RES_PERFMGR_FPS_61 Param1="1"/>
+                        <PERF_RES_PERFMGR_SCALING_A Param1="400"/>
+                        <PERF_RES_PERFMGR_R_STOP_DRAW_THRES Param1="3"/>
+                </Activity>
+        </Package>
+        <Package name="default.common.packagename_bak">
+                <Activity name="Common">
+                        <PERF_RES_PERFMGR_ENABLE Param1="1"/>
+                </Activity>
+        </Package>
+</PerfService>

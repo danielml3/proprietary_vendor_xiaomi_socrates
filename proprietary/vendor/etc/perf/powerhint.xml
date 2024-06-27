@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+ * Copyright (c) 2023 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+-->
+
+<!-- This is a target specific resource config file which can be
+used to overwrite the node paths mentioned in common resources file
+and also to modify the Supported field information. -->
+
+<!-- This file supports only Config tag, which has the following fields
+* MajorValue and MinorValue, both are required to uniquely
+identify the resource.
+* Node, the new node path to overwrite the already existing path
+of commonresourceconfigs.xml file.
+* Supported, to indicate whether the resource is supported or not.
+* For each config tag, either of Node or Supported fields need
+to be mentioned.
+NOTE - It is not Mandatory to write all the resources which are not supported,
+as anyway perflock calls of these resources would fail. -->
+
+<HintConfigs>
+    <Powerhint>
+<!-- camera preview and video recode-->
+<!--  set POWER COLLAPSE to disable  -->
+<!--  enbale schedule boost mode -->
+<!--  set cluster0 min freq to max -->
+<!--  set cluster0 max freq to max -->
+<!--  set schedule irq balance mode -->
+
+        <Config
+            Id="0x00001331" Enable="true" Target="kalama" Timeout="2000"
+            Resources="0x40400000, 0x1, 0x40C00000, 0x1, 0x40800000, 0xFFF, 0x40804000, 0xFFF, 0x40CA8000, 0x2"/>
+
+    </Powerhint>
+</HintConfigs>
+

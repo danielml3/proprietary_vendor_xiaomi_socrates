@@ -1,0 +1,14 @@
+interval 5
+reset 0																//set VEN to 1
+sleep 100
+reset 1																//set VEN to 1
+sleep 100
+send 20000101														// NCI CORE RESET CMD
+send 2001020000
+
+//Read VDDPA voltage and current
+send 2F3F03320100
+send 2F320108
+send 2F32010D
+
+end

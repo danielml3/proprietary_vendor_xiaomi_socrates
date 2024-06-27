@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CONTABLE>
+    <CMD name="PERF_RES_LITTLE_CORE_CTR_ONLINE_MIN">
+        <Entry path="/sys/devices/system/cpu/cpu0/core_ctl/min_cpus"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_LITTLE_CORE_CTR_ONLINE_MAX">
+        <Entry path="/sys/devices/system/cpu/cpu0/core_ctl/max_cpus"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_BIG_CORE_CTR_ONLINE_MIN">
+        <Entry path="/sys/devices/system/cpu/cpu3/core_ctl/min_cpus"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_BIG_CORE_CTR_ONLINE_MAX">
+        <Entry path="/sys/devices/system/cpu/cpu3/core_ctl/max_cpus"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PRIME_CORE_CTR_ONLINE_MIN">
+        <Entry path="/sys/devices/system/cpu/cpu7/core_ctl/min_cpus"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PRIME_CORE_CTR_ONLINE_MAX">
+        <Entry path="/sys/devices/system/cpu/cpu7/core_ctl/max_cpus"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_CPU0_MAXFREQ">
+        <Entry path="/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_CPU3_MAXFREQ">
+        <Entry path="/sys/devices/system/cpu/cpu3/cpufreq/scaling_max_freq"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_CPU7_MAXFREQ">
+        <Entry path="/sys/devices/system/cpu/cpu7/cpufreq/scaling_max_freq"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_MIN_FREQ_CPU">
+        <Entry path="/sys/module/msm_performance/parameters/cpu_min_freq"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_MAX_FREQ_CPU">
+        <Entry path="/sys/module/msm_performance/parameters/cpu_max_freq"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_SCHED_UPMIGRATE">
+        <Entry path="/proc/sys/kernel/sched_upmigrate"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_SCHED_DOWNMIGRATE">
+        <Entry path="/proc/sys/kernel/sched_downmigrate"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_SCHED_BOOST">
+        <Entry path="/proc/sys/kernel/sched_boost"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_SCHED_PREFER_SPREAD">
+        <Entry path="proc/sys/kernel/sched_prefer_spread"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_BK_CPUS">
+        <Entry path="/dev/cpuset/background/cpus"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_FG_CPUS">
+        <Entry path="/dev/cpuset/foreground/cpus"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_TOP_CPUS">
+        <Entry path="/dev/cpuset/top-app/cpus"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_SYSTEM_BACK_CPUS">
+        <Entry path="/dev/cpuset/system-background/cpus"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_GPU_MIN_FREQ">
+        <Entry path="/sys/class/kgsl/kgsl-3d0/devfreq/min_freq"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_GPU_MAX_FREQ">
+        <Entry path="/sys/class/kgsl/kgsl-3d0/devfreq/max_freq"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PERFMGR_ENABLE">
+        <Entry path="sys/module/perfmgr/parameters/perfmgr_enable"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PERFMGR_NORMALFRAME_KEEP_COUNT">
+        <Entry path="sys/module/perfmgr/parameters/normal_frame_keep_count"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_CPU7_CORECTL_ENABLE">
+        <Entry path="sys/devices/system/cpu/cpu7/core_ctl/enable"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PERFMGR_CPU7_NON_CONTINUOUS_SCENE">
+        <Entry path="sys/module/perfmgr/parameters/non_continuous_scene"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PERFMGR_JANKFRAME_KEEP_COUNT">
+        <Entry path="sys/module/perfmgr/parameters/jank_frame_keep_count"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PERFMGR_LOAD_SCALING_Y">
+        <Entry path="sys/module/perfmgr/parameters/load_scaling_y"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_CPU3_WALT_TARGETLOAD">
+        <Entry path="sys/devices/system/cpu/cpu3/cpufreq/walt/target_loads"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_CPU7_WALT_TARGETLOAD">
+        <Entry path="sys/devices/system/cpu/cpu7/cpufreq/walt/target_loads"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_CPU0_WALT_TARGETLOAD">
+        <Entry path="sys/devices/system/cpu/cpu0/cpufreq/walt/target_loads"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PERFMGR_SCALING_A">
+        <Entry path="sys/module/perfmgr/parameters/scaling_a"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PERFMGR_SCALING_R_THRES">
+        <Entry path="sys/module/perfmgr/parameters/scaling_r_thres"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PERFMGR_SCALING_B">
+        <Entry path="sys/module/perfmgr/parameters/scaling_b"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_CPU0_RGT_BOOST_FREQ">
+        <Entry path="sys/devices/system/cpu/cpu0/cpufreq/walt/rtg_boost_freq"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PERFMGR_PREDICT_FREQ_LEVEL">
+        <Entry path="sys/module/perfmgr/parameters/predict_freq_level"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_WALT_SCHED_ASYMCAP_BOOSTER">
+        <Entry path="proc/sys/walt/sched_asymcap_boost"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PERFMGR_LIMIT_CPU_START">
+        <Entry path="sys/module/perfmgr/parameters/limit_cpu_start"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PERFMGR_MAX_LIMIT">
+        <Entry path="sys/module/perfmgr/parameters/max_freq_limit_level"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PERFMGR_FPS_121">
+        <Entry path="sys/module/perfmgr/parameters/target_fps_121"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PERFMGR_FPS_61">
+        <Entry path="sys/module/perfmgr/parameters/target_fps_61"></Entry>
+    </CMD>
+    <CMD name="PERF_RES_PERFMGR_R_STOP_DRAW_THRES">
+        <Entry path="sys/module/perfmgr/parameters/r_stop_draw_thres"></Entry>
+    </CMD>
+</CONTABLE>

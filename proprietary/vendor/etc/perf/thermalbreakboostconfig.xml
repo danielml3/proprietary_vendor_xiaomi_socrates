@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    an element represents an element in hashmap ,the key include Scence
+    and Trig struct, the key is cpu and Target
+    1. Cluster: "cpu0,cpu4,cpu7" in sm8475 platform; "cpu0,cpu3,cpu7"  in sm8550 platform
+    2. default scence: scence = 0
+    3. ex: < 37: return 33, < 39: return 37, < 41: return 39, < 43: return 41, < 45: return 43, abnormal_temp: return_45
+    4. target0 represents performance mode，target1 represents balanced mode，target2 represents power mode
+-->
+<BoostConfigs>
+    <ScrollBoost>
+        <!--默认场景-->
+        <Config Scence="0">
+                <Child Trig="35000"
+                Target0="boost:1 cpu0:1785600 cpu3:2457600 cpu7:2726400"
+                Target1="boost:1 cpu0:1785600 cpu3:2457600 cpu7:2726400"
+                Target2="boost:1 cpu0:1785600 cpu3:2323200 cpu7:2592000"/>
+                <Child Trig="37000"
+                Target0="boost:1 cpu0:1785600 cpu3:2323200 cpu7:2342400"
+                Target1="boost:1 cpu0:1785600 cpu3:2323200 cpu7:2342400"
+                Target2="boost:1 cpu0:1785600 cpu3:2188800 cpu7:2227200"/>
+                <Child Trig="39000"
+                Target0="boost:1 cpu0:1785600 cpu3:2188800 cpu7:2092800"
+                Target1="boost:1 cpu0:1785600 cpu3:2188800 cpu7:2092800"
+                Target2="boost:1 cpu0:1785600 cpu3:2054400 cpu7:1977600"/>
+                <Child Trig="41000"
+                Target0="boost:1 cpu0:1785600 cpu3:2054400 cpu7:1843200"
+                Target1="boost:1 cpu0:1785600 cpu3:2054400 cpu7:1843200"
+                Target2="boost:1 cpu0:1785600 cpu3:1920000 cpu7:1708800"/>
+                <Child Trig="43000"
+                Target0="boost:1 cpu0:1785600 cpu3:1920000 cpu7:1593600"
+                Target1="boost:1 cpu0:1785600 cpu3:1920000 cpu7:1593600"
+                Target2="boost:1 cpu0:1785600 cpu3:1785600 cpu7:1478400"/>
+                <Child Trig="45000"
+                Target0="boost:1 cpu0:1459200 cpu3:1056000 cpu7:998400"
+                Target1="boost:1 cpu0:1459200 cpu3:1056000 cpu7:998400"
+                Target2="boost:1 cpu0:1113600 cpu3:1056000 cpu7:998400"/>
+        </Config>
+            <!--定制场景 较激进-->
+        <Config Scence="1">
+                <Child Trig="35000"
+                Target0="boost:1 cpu0:1785600 cpu3:2592000 cpu7:2726400"
+                Target1="boost:1 cpu0:1785600 cpu3:2592000 cpu7:2726400"
+                Target2="boost:1 cpu0:1785600 cpu3:2457600 cpu7:2592000"/>
+                <Child Trig="37000"
+                Target0="boost:1 cpu0:1785600 cpu3:2457600 cpu7:2476800"
+                Target1="boost:1 cpu0:1785600 cpu3:2457600 cpu7:2476800"
+                Target2="boost:1 cpu0:1785600 cpu3:2323200 cpu7:2342400"/>
+                <Child Trig="39000"
+                Target0="boost:1 cpu0:1785600 cpu3:2323200 cpu7:2342400"
+                Target1="boost:1 cpu0:1785600 cpu3:2323200 cpu7:2342400"
+                Target2="boost:1 cpu0:1785600 cpu3:2188800 cpu7:2227200"/>
+                <Child Trig="41000"
+                Target0="boost:1 cpu0:1785600 cpu3:2188800 cpu7:2092800"
+                Target1="boost:1 cpu0:1785600 cpu3:2188800 cpu7:2092800"
+                Target2="boost:1 cpu0:1785600 cpu3:2054400 cpu7:1977600"/>
+                <Child Trig="43000"
+                Target0="boost:1 cpu0:1785600 cpu3:1920000 cpu7:1708800"
+                Target1="boost:1 cpu0:1785600 cpu3:1920000 cpu7:1708800"
+                Target2="boost:1 cpu0:1785600 cpu3:1785600 cpu7:1593600"/>
+                <Child Trig="45000"
+                Target0="boost:1 cpu0:1459200 cpu3:1056000 cpu7:998400"
+                Target1="boost:1 cpu0:1459200 cpu3:1056000 cpu7:998400"
+                Target2="boost:1 cpu0:1113600 cpu3:1056000 cpu7:998400"/>
+        </Config>
+    </ScrollBoost>
+</BoostConfigs>

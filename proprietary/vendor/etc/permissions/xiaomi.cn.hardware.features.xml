@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  This is the standard feature indicating that the device includes xiaomi feature  -->
+<!--  xiaomi.hardware.p2p_staticip: support p2p provision through static ip  -->
+<!--  xiaomi.hardware.p2p_165chan: support p2p connection through 165 channel  -->
+<!--  xiaomi.hardware.p2p_160m: support p2p connection 160m width  -->
+<!--  xiaomi.hardware.p2p_getlinklayer: support get p2p link layer stats -->
+<permissions>
+<feature name="xiaomi.hardware.p2p_staticip"/>
+<feature name="xiaomi.hardware.p2p_160m"/>
+<feature name="xiaomi.hardware.p2p_165chan"/>
+<feature name="xiaomi.hardware.p2p_getlinklayer"/>
+</permissions>

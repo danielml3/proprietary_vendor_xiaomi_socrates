@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PerfService>
+        <Package name="com.android.fileexplorer">
+                <Activity name="fileexplor.copyactivity">
+                        <PERF_RES_HANDLE handle="0"/>
+                        <PERF_RES_BOOSTLIST boostList="0x40C00000,0x1,0x40804000,0xFFF,0x40804100,0xFFF,0x40804200,0xFFF,0x40800000,0xFFF,0x40800100,0xFFF,0x40800200,0xFFF,0x41848000,0x104410,0x41844000,0x104410,0x40400000,0x1,0x42C10000,0x1,0x43430100,0x28C5,0x43458000,0x15AE00,0x4281C000,2000"/>
+                        <PERF_RES_DURATION duration="30000"/>
+                        <PERF_RES_NUMARGS numArgs="14"/>
+                </Activity>
+                <Activity name="fileexplor.unzipactivity">
+                        <PERF_RES_HANDLE handle="0"/>
+                        <PERF_RES_BOOSTLIST boostList="0x40C00000,0x1,0x40804000,0xFFF,0x40804100,0xFFF,0x40804200,0xFFF,0x40800000,0xFFF,0x40800100,0xFFF,0x40800200,0xFFF,0x41848000,0x104410,0x41844000,0x104410,0x40400000,0x1,0x42C10000,0x1,0x43430100,0x28C5,0x43458000,0x15AE00,0x4281C000,2000"/>
+                        <PERF_RES_DURATION duration="30000"/>
+                        <PERF_RES_NUMARGS numArgs="14"/>
+                </Activity>
+        </Package>
+        <Package name="com.tencent.mm">
+	        <Activity name="com.tencent.mm.plugin.backup.backupmoveui.BackupUI">
+			<PERF_RES_HANDLE handle="0"/>
+			<PERF_RES_BOOSTLIST boostList="0x40C00000,0x1,0x40804000,0xFFF,0x40804100,0xFFF,0x40804200,0xFFF,0x40800000,0xFFF,0x40800100,0xFFF,0x40800200,0xFFF,0x41848000,0x104410,0x41844000,0x104410,0x40400000,0x1,0x42C10000,0x1,0x43430100,0x28C5,0x43458000,0x15AE00,0x4281C000,2000"/>
+			<PERF_RES_NUMARGS numArgs="14"/>
+		</Activity>
+	</Package>
+          <Package name="com.ludashi.benchmark">
+                <Activity name="com.ludashi.benchmark.business.uebenchmark.fragments.UEMeasureActivity">
+                        <PERF_RES_HANDLE handle="0"/>
+                        <PERF_RES_BOOSTLIST boostList="0x40C00000,0x1,0x41000000,3,0x41000100,4,0x41000200,1,0x40C7C000,15,0x40804000,0xFFF,0x40804100,0xFFF,0x40804200,0xFFF,0x40800000,0xFFF,0x40800100,0xFFF,0x40800200,0xFFF"/>
+                        <PERF_RES_NUMARGS numArgs="22"/>
+                </Activity>
+        </Package>
+</PerfService>

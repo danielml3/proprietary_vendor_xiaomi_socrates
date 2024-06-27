@@ -1,0 +1,296 @@
+device: socrates
+enableShutdownFunc: true
+
+positions:
+  important_info:
+    size: 150
+    x: 10
+    y: 10
+  expand_info:
+    size: 150
+
+import_info:
+  # PCB SN
+  - type: property
+    name: pcb_sn
+    key_name: a
+    command: ro.ril.oem.sno
+
+  # Battery level
+  - type: battery
+    name: battery_level
+    key_name: b
+
+  # MEID, if the phone supports CDMA, it must have the value
+  - type: telephony
+    name: meid
+    key_name: g
+
+  # Factory ID
+  - type: property
+    name: factory_id
+    key_name: o
+    command: ro.ril.factory_id
+
+  # Software version
+  - type: software_version
+    name: software_version
+    key_name: v
+
+check_info:
+  # Secure boot status
+  - type: property
+    name: secure_boot
+    key_name: a
+    command: ro.boot.secureboot
+    pass_value: 1
+
+  # Whether the bootloader lock is locked
+  - type: property
+    name: bootloader_lock
+    key_name: b
+    command: ro.boot.verifiedbootstate
+    pass_value: green
+
+  # RPMP provision
+  - type: property
+    name: rpmp
+    key_name: c
+    command: vendor.sys.rpmb_state
+    pass_value: 23
+
+  # Speaker calibrate status check
+  - type: property
+    name: speaker_calibrate
+    key_name: e
+    command: vendor.audio.chk.cal.spk
+    pass_value: 1
+
+  # Hardware version
+  - type: property
+    name: hardware_version
+    key_name: m
+    command: ro.boot.hwlevel
+    pass_value: MP
+
+  # Check if NV and Hardware versions matched
+  - type: property
+    name: nv_hw_match
+    key_name: A
+    command: persist.radio.skhwc_matchres
+    pass_value: MATCH
+
+  # Battery encryption check
+  - type: battery
+    name: battery_encryption
+    key_name: y
+    pass_value: 11
+    params:
+      chip: /sys/class/qcom-battery/chip_ok
+      authentic: /sys/class/qcom-battery/authentic
+
+  # Camera calibrate status check
+  - type: property
+    name: camera_calibrate
+    key_name: u
+    command: vendor.camera.sensor.mi.databin.existmask
+    pass_value: 17
+
+  # Debug policy
+  - type: property
+    name: debug_policy
+    key_name: l
+    command: ro.boot.dp
+    pass_value: "0x20"
+
+  # Security Key: FIDO
+  - type: security
+    name: fido
+    key_name: h
+
+  # Security Key: IFAA
+  - type: security
+    name: ifaa
+    key_name: g
+
+  # Digital rights management key: Widevine
+  - type: security
+    name: widevine
+    key_name: q
+
+  # Android Key box, services for DRM(Digital Rights Management)
+  - type: security
+    name: key_box
+    key_name: t
+
+  # Airplane mode check
+  - type: modem
+    name: airplane_mode
+    key_name: Y
+    command: settings get global airplane_mode_on
+    pass_value: 0
+
+  # Modem MBN, check for that carrier-specific customization files by Qualcomm existence
+  - type: property
+    name: modem_mbn
+    key_name: E
+    command: persist.radio.modem_mbn_check
+    pass_value: 1
+
+  # NFC function check
+  - type: nfc
+    name: nfc
+    key_name: B
+
+  # Screen calibrate check
+  - type: property
+    name: screen_calibrate
+    key_name: x
+    command: vendor.display.panel.calibration.status
+    pass_value: 0
+
+  # Check for residual test pictures
+  - type: picture
+    name: picture
+    key_name: p
+
+  # Check if ramdump is on
+  - type: property
+    name: ramdump
+    key_name: D
+    command: ro.boot.ramdump
+    pass_value: disable
+
+  # Check if Modem NV info exists
+  - type: property
+    name: nv_back
+    key_name: w
+    command: persist.radio.goldencopy_flag
+    pass_value: true
+
+  # Sdcard status check
+  - type: sdcard
+    name: sdcard
+    key_name: v
+
+  # Sensor calibrate status check
+  - type: sensor
+    name: sensor
+    key_name: z
+    params:
+      CN: "11111"
+      GL: "111111"
+      DEFAULT: "111111"
+
+  # SIM card status
+  - type: property
+    name: sim_card
+    key_name: o
+    command: gsm.sim.state
+    pass_value: ABSENT,ABSENT
+
+  # SIM Tray
+  - type: telephony
+    name: sim_tray
+    key_name: s
+    pass_value: 1
+
+  - type: recovery
+    name: 1217
+    key_name: G
+    
+  # modem status
+  - type: modem
+    name: modem_status
+    key_name: H
+    command: persist.radio.operating_mode
+    pass_value: 0
+    
+expand_info:
+  # Phone SN
+  - type: property
+    name: phone_sn
+    key_name: c
+    command: ro.ril.oem.psno
+
+  # System image version
+  - type: property
+    name: version
+    key_name: d
+    command: ro.build.version.incremental
+
+  # IMEI1
+  - type: telephony
+    name: imei1
+    key_name: e
+
+  # IMEI2
+  - type: telephony
+    name: imei2
+    key_name: f
+
+  # Bluetooth address
+  - type: address
+    name: bluetooth_address
+    key_name: h
+
+  # WiFi address
+  - type: address
+    name: wifi_address
+    key_name: i
+
+  # CPU id
+  - type: property
+    name: cpu_id
+    key_name: k
+    command: ro.boot.cpuid
+
+  # Storage id
+  - type: storage
+    name: storage_id
+    key_name: l
+    params:
+      storage_id_path: /sys/class/mi_memory/mi_memory_device/ufshcd0/dump_string_desc_serial
+
+  # tzProvision
+  - type: security
+    name: tz_key
+    key_name: m
+
+  # Hardware version
+  - type: property
+    name: hardware_version
+    key_name: n
+    command: ro.boot.hwversion
+
+  # Maximum CPU frequency
+  - type: cpu_frequency
+    name: cpu_frequency
+    key_name: p
+    params:
+      core_number: 8
+      useHz: true
+
+  # Memory size
+  - type: storage
+    name: memory_size
+    key_name: q
+
+  # Storage size
+  - type: storage
+    name: storage_size
+    key_name: r
+
+  # Project code
+  - type: project_name
+    name: project_name
+    key_name: s
+    params:
+      socrates: M11
+
+  # MIUI cust image version
+  # Optional
+  - type: property
+    name: cust_version
+    key_name: T
+    command: ro.miui.business.version

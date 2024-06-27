@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CitUrlCheckConfig>
+    <UrlConfig device_name="device_name">
+        <prop sign_name="device_sign">sign</prop>
+        <cpuidsign>hPEKXnfW7wCdzBoja41uMPV9wVOFcNHdcpSPqqBTWV6rs7hDxaz3B2mTuDyaR9338va1FKrqR9TgmTqCbdOeDKTrdN4iqlWaA2//qKkvo/WupG9MoguTsOyQZ674xrmsuewYfvSTkxsC3Q+tLr3YRJHwUZv3lmvgz3NCD2fW+s4=</cpuidsign>
+        <internalsign>Kt0a9x3wPUFKHI/K4V+LcY+SSfIQDfdDWjDDVQwU898Ma47NpsCtWmKRNkKMqZpfxanZFxKRl0/YX6HgT+ELKf4sJX1eSPO2aWbYqXp88Pmsbtn9lreSFn26XGsjOzOAkOzAS4l3TWaYhTDpWqVMmQjDsQozK1w2U+a0L7gJLgI=</internalsign>
+        <internal>https://hr.mioffice.cn/</internal>
+        <cpuid>https://port.sec.miui.com/mqsas/biz/getSecCode?cpuId</cpuid>
+    </UrlConfig>
+</CitUrlCheckConfig>

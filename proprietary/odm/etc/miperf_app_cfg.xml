@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PerfService>
+        <Package name0="com.android.test3" name1="com.android.test4" name2="com.android.test5" name3="com.android.test6">
+                <PERF_RES_BK_CPUS Param1="2-6"/>
+                <PERF_RES_MIN_FREQ_CPU Param1="0:200000"/>
+                <PERF_RES_SCHED_BOOST Param1="1"/>
+        </Package>
+        <Package name0="com.android.test7" name1="com.android.test8" name2="com.android.test9">
+                <PERF_RES_MIN_FREQ_CPU Param1="0:150000"/>
+                <PERF_RES_SCHED_BOOST Param1="2"/>
+        </Package>
+</PerfService>

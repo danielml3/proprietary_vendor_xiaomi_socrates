@@ -1,0 +1,388 @@
+{
+    "Map":{
+        "01":"skinSmooth",
+        "02":"whiten",
+        "03":"stereoPerception",
+        "04":"eyeBrowDye",
+        "05":"slimFace",
+        "06":"headNarrow",
+        "07":"hairPuffy",
+        "08":"enlargeEye",
+        "09":"nose",
+        "10":"noseTip",
+        "11":"temple",
+        "12":"cheekBone",
+        "13":"jaw",
+        "14":"chin",
+        "15":"lips",
+        "16":"hairline",
+        "17":"",
+        "18":"",
+        "19":"",
+        "20":""
+    },
+    "INRegion": {
+        "FrontCapture":{
+            "BeautyMode": 0,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 30
+                },
+                {
+                    "Id": 05,
+                    "Val": 40
+                },
+                {
+                    "Id": 08,
+                    "Val": 0
+                },
+                {
+                    "Id": 09,
+                    "Val": 0
+                },
+                {
+                    "Id": 14,
+                    "Val": 0
+                },
+                {
+                    "Id": 15,
+                    "Val": 0
+                },
+                {
+                    "Id": 16,
+                    "Val": 0
+                },
+                {
+                    "Id": 04,
+                    "Val": 0
+                }
+            ]
+        },
+        "FrontPortrait":{
+            "BeautyMode": 0,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 40
+                }
+            ]
+        },
+        "FrontRecordVideo": {
+            "BeautyMode": 1,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 0
+                }
+            ]
+        },
+        "FrontAIWatermark": {
+            "BeautyMode": 2,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 30
+                },
+                {
+                    "Id": 05,
+                    "Val": 40
+                },
+                {
+                    "Id": 08,
+                    "Val": 0
+                },
+                {
+                    "Id": 09,
+                    "Val": 0
+                },
+                {
+                    "Id": 14,
+                    "Val": 0
+                },
+                {
+                    "Id": 15,
+                    "Val": 0
+                },
+                {
+                    "Id": 16,
+                    "Val": 0
+                },
+                {
+                    "Id": 04,
+                    "Val": 0
+                }
+            ]
+        },
+        "FrontSuperNight": {
+            "BeautyMode": 2,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 30
+                },
+                {
+                    "Id": 05,
+                    "Val": 40
+                },
+                {
+                    "Id": 08,
+                    "Val": 0
+                }
+            ]
+        },
+        "FrontShortVideo": {
+            "BeautyMode": 2,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 30
+                },
+                {
+                    "Id": 05,
+                    "Val": 40
+                },
+                {
+                    "Id": 08,
+                    "Val": 0
+                }
+            ]
+        },
+        "FrontVlog": {
+            "BeautyMode": 2,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 0
+                }
+            ]
+        },
+        "RearCapture": {
+            "BeautyMode": 0,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 0
+                }
+            ]
+        },
+        "RearPortrait": {
+            "BeautyMode": 0,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 0
+                }
+            ]
+        },
+        "RearRecordVideo": {
+            "BeautyMode": 0,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 0
+                }
+            ]
+        },
+        "RearShortVideo": {
+            "BeautyMode": 0,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 0
+                }
+            ]
+        },
+        "RearVlog": {
+            "BeautyMode": 0,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 0
+                }
+            ]
+        }
+    },
+    "GLRegion": {
+        "FrontCapture":{
+            "BeautyMode": 2,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 30
+                },
+                {
+                    "Id": 05,
+                    "Val": 40
+                },
+                {
+                    "Id": 08,
+                    "Val": 0
+                },
+                {
+                    "Id": 09,
+                    "Val": 0
+                },
+                {
+                    "Id": 14,
+                    "Val": 0
+                },
+                {
+                    "Id": 15,
+                    "Val": 0
+                },
+                {
+                    "Id": 16,
+                    "Val": 0
+                },
+                {
+                    "Id": 04,
+                    "Val": 0
+                }
+            ]
+        },
+        "FrontPortrait":{
+            "BeautyMode": 0,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 40
+                }
+            ]
+        },
+        "FrontRecordVideo": {
+            "BeautyMode": 1,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 0
+                }
+            ]
+        },
+        "FrontAIWatermark": {
+            "BeautyMode": 2,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 30
+                },
+                {
+                    "Id": 05,
+                    "Val": 40
+                },
+                {
+                    "Id": 08,
+                    "Val": 0
+                },
+                {
+                    "Id": 09,
+                    "Val": 0
+                },
+                {
+                    "Id": 14,
+                    "Val": 0
+                },
+                {
+                    "Id": 15,
+                    "Val": 0
+                },
+                {
+                    "Id": 16,
+                    "Val": 0
+                },
+                {
+                    "Id": 04,
+                    "Val": 0
+                }
+            ]
+        },
+        "FrontSuperNight": {
+            "BeautyMode": 2,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 30
+                },
+                {
+                    "Id": 05,
+                    "Val": 40
+                },
+                {
+                    "Id": 08,
+                    "Val": 0
+                }
+            ]
+        },
+        "FrontShortVideo": {
+            "BeautyMode": 2,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 30
+                },
+                {
+                    "Id": 05,
+                    "Val": 40
+                },
+                {
+                    "Id": 08,
+                    "Val": 0
+                }
+            ]
+        },
+        "FrontVlog": {
+            "BeautyMode": 2,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 0
+                }
+            ]
+        },
+        "RearCapture": {
+            "BeautyMode": 0,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 0
+                }
+            ]
+        },
+        "RearPortrait": {
+            "BeautyMode": 0,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 40
+                }
+            ]
+        },
+        "RearRecordVideo": {
+            "BeautyMode": 0,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 0
+                }
+            ]
+        },
+        "RearShortVideo": {
+            "BeautyMode": 0,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 0
+                }
+            ]
+        },
+        "RearVlog": {
+            "BeautyMode": 0,
+            "Options": [
+                {
+                    "Id": 01,
+                    "Val": 0
+                }
+            ]
+        }
+    }
+}
